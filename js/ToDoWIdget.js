@@ -1,4 +1,4 @@
-import UIComponent from '/js/UIComponent.js';
+import UIComponent from './UIComponent.js';
 
 export default class ToDoWidget extends UIComponent {
   constructor(title = 'Список дел', id) {
