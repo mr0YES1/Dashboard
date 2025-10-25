@@ -1,0 +1,67 @@
+.widget {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f4f8;
+  padding: 10px;
+}
+
+.widget-header h3 {
+  margin: 0;
+}
+
+.close-btn {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.widget-body {
+  padding: 15px;
+}
+
+.todo-widget input {
+  width: 70%;
+  padding: 5px;
+}
+
+.todo-widget .add-task {
+  margin-left: 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  background: #f9fafb;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.task-list span.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.quote-widget {
+  text-align: center;
+}
+
+.quote-text {
+  font-style: italic;
+  margin-bottom: 10px;
+}
